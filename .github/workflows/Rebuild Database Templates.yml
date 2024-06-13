@@ -30,6 +30,9 @@ on:
           - DotNetPackages
           - DatabaseTemplates
 
+permissions: read-all
+
+
 env:
   INFORMATIONAL_VERSION: "7.3"
   CONFIGURATION: "Release"
